@@ -1,0 +1,4 @@
+<p *ngIf="product && product.price > 700">
+  <!-- pass data to parent component -->
+  <button (click)="notify.emit()">Notify Me</button>
+</p>
